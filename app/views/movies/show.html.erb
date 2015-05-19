@@ -46,6 +46,13 @@
           </div>
         </div>
       </div>
+
+      <ul>
+      <% @movie.actors.each do |actor| %>
+      <li><%= actor.name %>
+      <% end %></li>
+      </ul>
+
     </div>
   </div>
 </div>
